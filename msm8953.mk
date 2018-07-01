@@ -108,9 +108,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
+    camera.msm8953 \
+    libmm-qcamera \
+    Gcam \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@1.0_vendor \
-    GCam
 
 # Configstore
 PRODUCT_PACKAGES += \
